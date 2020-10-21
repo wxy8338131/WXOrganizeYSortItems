@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94229746253D82A800FE2327 /* WXYSortCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 94229745253D82A800FE2327 /* WXYSortCommonTool.m */; };
+		94229749253D8A9000FE2327 /* WXYSortBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94229748253D8A9000FE2327 /* WXYSortBaseViewController.m */; };
+		9422974C253D972800FE2327 /* WXYSortBubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422974B253D972800FE2327 /* WXYSortBubbleSort.m */; };
+		94229750253D97E400FE2327 /* WXYSortCharReverseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422974F253D97E400FE2327 /* WXYSortCharReverseController.m */; };
+		94229753253D980E00FE2327 /* WXYSortCharReverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 94229752253D980E00FE2327 /* WXYSortCharReverse.m */; };
+		9422975D253E761300FE2327 /* WXYSortMergeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422975C253E761300FE2327 /* WXYSortMergeController.m */; };
+		94229760253E767300FE2327 /* WXYSortMergeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422975F253E767300FE2327 /* WXYSortMergeModel.m */; };
+		94229764253E8E6700FE2327 /* WXYSortQuickSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94229763253E8E6700FE2327 /* WXYSortQuickSortController.m */; };
+		94229767253E8E7800FE2327 /* WXYSortQuickSortModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94229766253E8E7800FE2327 /* WXYSortQuickSortModel.m */; };
+		9422976B253EB43A00FE2327 /* WXYSortNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422976A253EB43A00FE2327 /* WXYSortNodeController.m */; };
+		9422976E253EB64800FE2327 /* WXYSortNodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422976D253EB64800FE2327 /* WXYSortNodeModel.m */; };
+		94229772253EC6A900FE2327 /* WXYSortSameSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94229771253EC6A900FE2327 /* WXYSortSameSuperViewController.m */; };
+		94229775253EC6EB00FE2327 /* WXYSortTempView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94229774253EC6EB00FE2327 /* WXYSortTempView.m */; };
+		94229778253EC70700FE2327 /* WXYSortTempChiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94229777253EC70700FE2327 /* WXYSortTempChiledView.m */; };
+		9422977B253EC72A00FE2327 /* WXYSortSameSuperViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422977A253EC72A00FE2327 /* WXYSortSameSuperViewModel.m */; };
+		94229780253ECBD600FE2327 /* WXYSortHashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422977F253ECBD600FE2327 /* WXYSortHashController.m */; };
+		94229783253ECBE100FE2327 /* WXYSortHashModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94229782253ECBE100FE2327 /* WXYSortHashModel.m */; };
+		94229787253ED43000FE2327 /* WXYSortStrReverseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94229786253ED43000FE2327 /* WXYSortStrReverseController.m */; };
+		9422978B253FC98100FE2327 /* WXYSortSearchKBigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422978A253FC98100FE2327 /* WXYSortSearchKBigController.m */; };
+		9422978E253FCABE00FE2327 /* WXYSortSearchKBigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422978D253FCABE00FE2327 /* WXYSortSearchKBigModel.m */; };
+		94229792253FD5AA00FE2327 /* WXYSortLongIntegerSubController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94229791253FD5AA00FE2327 /* WXYSortLongIntegerSubController.m */; };
+		94229795253FD6AA00FE2327 /* WXYSortLongIntegerSubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94229794253FD6AA00FE2327 /* WXYSortLongIntegerSubModel.m */; };
+		948DE384253D6B470052001B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 948DE383253D6B470052001B /* AppDelegate.m */; };
+		948DE38D253D6B470052001B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948DE38B253D6B470052001B /* Main.storyboard */; };
+		948DE38F253D6B4A0052001B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948DE38E253D6B4A0052001B /* Assets.xcassets */; };
+		948DE392253D6B4A0052001B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948DE390253D6B4A0052001B /* LaunchScreen.storyboard */; };
+		948DE395253D6B4A0052001B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 948DE394253D6B4A0052001B /* main.m */; };
+		948DE39F253D6B4A0052001B /* Organize_Sort_ItemsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 948DE39E253D6B4A0052001B /* Organize_Sort_ItemsTests.m */; };
+		948DE3AA253D6B4A0052001B /* Organize_Sort_ItemsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 948DE3A9253D6B4A0052001B /* Organize_Sort_ItemsUITests.m */; };
+		948DE3C2253D6C630052001B /* WXYSortRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948DE3C1253D6C630052001B /* WXYSortRootController.m */; };
+		948DE3D5253D6F120052001B /* WXYSortBubbleSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948DE3D4253D6F120052001B /* WXYSortBubbleSortController.m */; };
+		948DE3ED253D745B0052001B /* UIView+IBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 948DE3EB253D745B0052001B /* UIView+IBCategory.m */; };
+		94FF899B253FFDE00097B396 /* WXYSortFindMedianController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FF899A253FFDE00097B396 /* WXYSortFindMedianController.m */; };
+		94FF89A4253FFE560097B396 /* WXYSortFindMedianModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FF89A3253FFE560097B396 /* WXYSortFindMedianModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		948DE39B253D6B4A0052001B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948DE377253D6B470052001B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 948DE37E253D6B470052001B;
+			remoteInfo = Organize_Sort_Items;
+		};
+		948DE3A6253D6B4A0052001B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948DE377253D6B470052001B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 948DE37E253D6B470052001B;
+			remoteInfo = Organize_Sort_Items;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94229744253D82A800FE2327 /* WXYSortCommonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortCommonTool.h; sourceTree = "<group>"; };
+		94229745253D82A800FE2327 /* WXYSortCommonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortCommonTool.m; sourceTree = "<group>"; };
+		94229747253D8A9000FE2327 /* WXYSortBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortBaseViewController.h; sourceTree = "<group>"; };
+		94229748253D8A9000FE2327 /* WXYSortBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortBaseViewController.m; sourceTree = "<group>"; };
+		9422974A253D972800FE2327 /* WXYSortBubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortBubbleSort.h; sourceTree = "<group>"; };
+		9422974B253D972800FE2327 /* WXYSortBubbleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortBubbleSort.m; sourceTree = "<group>"; };
+		9422974E253D97E400FE2327 /* WXYSortCharReverseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortCharReverseController.h; sourceTree = "<group>"; };
+		9422974F253D97E400FE2327 /* WXYSortCharReverseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortCharReverseController.m; sourceTree = "<group>"; };
+		94229751253D980E00FE2327 /* WXYSortCharReverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortCharReverse.h; sourceTree = "<group>"; };
+		94229752253D980E00FE2327 /* WXYSortCharReverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortCharReverse.m; sourceTree = "<group>"; };
+		9422975B253E761300FE2327 /* WXYSortMergeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortMergeController.h; sourceTree = "<group>"; };
+		9422975C253E761300FE2327 /* WXYSortMergeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortMergeController.m; sourceTree = "<group>"; };
+		9422975E253E767300FE2327 /* WXYSortMergeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortMergeModel.h; sourceTree = "<group>"; };
+		9422975F253E767300FE2327 /* WXYSortMergeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortMergeModel.m; sourceTree = "<group>"; };
+		94229762253E8E6700FE2327 /* WXYSortQuickSortController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortQuickSortController.h; sourceTree = "<group>"; };
+		94229763253E8E6700FE2327 /* WXYSortQuickSortController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortQuickSortController.m; sourceTree = "<group>"; };
+		94229765253E8E7800FE2327 /* WXYSortQuickSortModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortQuickSortModel.h; sourceTree = "<group>"; };
+		94229766253E8E7800FE2327 /* WXYSortQuickSortModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortQuickSortModel.m; sourceTree = "<group>"; };
+		94229769253EB43A00FE2327 /* WXYSortNodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortNodeController.h; sourceTree = "<group>"; };
+		9422976A253EB43A00FE2327 /* WXYSortNodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortNodeController.m; sourceTree = "<group>"; };
+		9422976C253EB64800FE2327 /* WXYSortNodeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortNodeModel.h; sourceTree = "<group>"; };
+		9422976D253EB64800FE2327 /* WXYSortNodeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortNodeModel.m; sourceTree = "<group>"; };
+		94229770253EC6A900FE2327 /* WXYSortSameSuperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortSameSuperViewController.h; sourceTree = "<group>"; };
+		94229771253EC6A900FE2327 /* WXYSortSameSuperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortSameSuperViewController.m; sourceTree = "<group>"; };
+		94229773253EC6EB00FE2327 /* WXYSortTempView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortTempView.h; sourceTree = "<group>"; };
+		94229774253EC6EB00FE2327 /* WXYSortTempView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortTempView.m; sourceTree = "<group>"; };
+		94229776253EC70700FE2327 /* WXYSortTempChiledView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortTempChiledView.h; sourceTree = "<group>"; };
+		94229777253EC70700FE2327 /* WXYSortTempChiledView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortTempChiledView.m; sourceTree = "<group>"; };
+		94229779253EC72A00FE2327 /* WXYSortSameSuperViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortSameSuperViewModel.h; sourceTree = "<group>"; };
+		9422977A253EC72A00FE2327 /* WXYSortSameSuperViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortSameSuperViewModel.m; sourceTree = "<group>"; };
+		9422977E253ECBD600FE2327 /* WXYSortHashController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortHashController.h; sourceTree = "<group>"; };
+		9422977F253ECBD600FE2327 /* WXYSortHashController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortHashController.m; sourceTree = "<group>"; };
+		94229781253ECBE100FE2327 /* WXYSortHashModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortHashModel.h; sourceTree = "<group>"; };
+		94229782253ECBE100FE2327 /* WXYSortHashModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortHashModel.m; sourceTree = "<group>"; };
+		94229785253ED43000FE2327 /* WXYSortStrReverseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortStrReverseController.h; sourceTree = "<group>"; };
+		94229786253ED43000FE2327 /* WXYSortStrReverseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortStrReverseController.m; sourceTree = "<group>"; };
+		94229789253FC98100FE2327 /* WXYSortSearchKBigController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortSearchKBigController.h; sourceTree = "<group>"; };
+		9422978A253FC98100FE2327 /* WXYSortSearchKBigController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortSearchKBigController.m; sourceTree = "<group>"; };
+		9422978C253FCABE00FE2327 /* WXYSortSearchKBigModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortSearchKBigModel.h; sourceTree = "<group>"; };
+		9422978D253FCABE00FE2327 /* WXYSortSearchKBigModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortSearchKBigModel.m; sourceTree = "<group>"; };
+		94229790253FD5AA00FE2327 /* WXYSortLongIntegerSubController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortLongIntegerSubController.h; sourceTree = "<group>"; };
+		94229791253FD5AA00FE2327 /* WXYSortLongIntegerSubController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortLongIntegerSubController.m; sourceTree = "<group>"; };
+		94229793253FD6AA00FE2327 /* WXYSortLongIntegerSubModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortLongIntegerSubModel.h; sourceTree = "<group>"; };
+		94229794253FD6AA00FE2327 /* WXYSortLongIntegerSubModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortLongIntegerSubModel.m; sourceTree = "<group>"; };
+		948DE37F253D6B470052001B /* Organize_Sort_Items.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Organize_Sort_Items.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		948DE382253D6B470052001B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		948DE383253D6B470052001B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		948DE38C253D6B470052001B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		948DE38E253D6B4A0052001B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		948DE391253D6B4A0052001B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		948DE393253D6B4A0052001B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948DE394253D6B4A0052001B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		948DE39A253D6B4A0052001B /* Organize_Sort_ItemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Organize_Sort_ItemsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		948DE39E253D6B4A0052001B /* Organize_Sort_ItemsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Organize_Sort_ItemsTests.m; sourceTree = "<group>"; };
+		948DE3A0253D6B4A0052001B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948DE3A5253D6B4A0052001B /* Organize_Sort_ItemsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Organize_Sort_ItemsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		948DE3A9253D6B4A0052001B /* Organize_Sort_ItemsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Organize_Sort_ItemsUITests.m; sourceTree = "<group>"; };
+		948DE3AB253D6B4A0052001B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948DE3C0253D6C630052001B /* WXYSortRootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortRootController.h; sourceTree = "<group>"; };
+		948DE3C1253D6C630052001B /* WXYSortRootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortRootController.m; sourceTree = "<group>"; };
+		948DE3D3253D6F120052001B /* WXYSortBubbleSortController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortBubbleSortController.h; sourceTree = "<group>"; };
+		948DE3D4253D6F120052001B /* WXYSortBubbleSortController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortBubbleSortController.m; sourceTree = "<group>"; };
+		948DE3DF253D722F0052001B /* WXYSortItemsHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortItemsHeader.pch; sourceTree = "<group>"; };
+		948DE3EB253D745B0052001B /* UIView+IBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBCategory.m"; sourceTree = "<group>"; };
+		948DE3EC253D745B0052001B /* UIView+IBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IBCategory.h"; sourceTree = "<group>"; };
+		94FF8999253FFDE00097B396 /* WXYSortFindMedianController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortFindMedianController.h; sourceTree = "<group>"; };
+		94FF899A253FFDE00097B396 /* WXYSortFindMedianController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortFindMedianController.m; sourceTree = "<group>"; };
+		94FF89A2253FFE560097B396 /* WXYSortFindMedianModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYSortFindMedianModel.h; sourceTree = "<group>"; };
+		94FF89A3253FFE560097B396 /* WXYSortFindMedianModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYSortFindMedianModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		948DE37C253D6B470052001B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948DE397253D6B4A0052001B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948DE3A2253D6B4A0052001B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94229740253D806800FE2327 /* OrganizeSort_Common */ = {
+			isa = PBXGroup;
+			children = (
+				94229744253D82A800FE2327 /* WXYSortCommonTool.h */,
+				94229745253D82A800FE2327 /* WXYSortCommonTool.m */,
+				94229747253D8A9000FE2327 /* WXYSortBaseViewController.h */,
+				94229748253D8A9000FE2327 /* WXYSortBaseViewController.m */,
+			);
+			path = OrganizeSort_Common;
+			sourceTree = "<group>";
+		};
+		9422974D253D97BE00FE2327 /* OrganizeSort_Reverse(字符串反转) */ = {
+			isa = PBXGroup;
+			children = (
+				9422974E253D97E400FE2327 /* WXYSortCharReverseController.h */,
+				9422974F253D97E400FE2327 /* WXYSortCharReverseController.m */,
+				94229751253D980E00FE2327 /* WXYSortCharReverse.h */,
+				94229752253D980E00FE2327 /* WXYSortCharReverse.m */,
+			);
+			path = "OrganizeSort_Reverse(字符串反转)";
+			sourceTree = "<group>";
+		};
+		94229754253E75A200FE2327 /* OrganizeSort_Merge(有序数组合并) */ = {
+			isa = PBXGroup;
+			children = (
+				9422975B253E761300FE2327 /* WXYSortMergeController.h */,
+				9422975C253E761300FE2327 /* WXYSortMergeController.m */,
+				9422975E253E767300FE2327 /* WXYSortMergeModel.h */,
+				9422975F253E767300FE2327 /* WXYSortMergeModel.m */,
+			);
+			path = "OrganizeSort_Merge(有序数组合并)";
+			sourceTree = "<group>";
+		};
+		94229761253E8E4700FE2327 /* OrganizeSort_QuickSort(快速排序) */ = {
+			isa = PBXGroup;
+			children = (
+				94229762253E8E6700FE2327 /* WXYSortQuickSortController.h */,
+				94229763253E8E6700FE2327 /* WXYSortQuickSortController.m */,
+				94229765253E8E7800FE2327 /* WXYSortQuickSortModel.h */,
+				94229766253E8E7800FE2327 /* WXYSortQuickSortModel.m */,
+			);
+			path = "OrganizeSort_QuickSort(快速排序)";
+			sourceTree = "<group>";
+		};
+		94229768253EB41D00FE2327 /* OrganizeSort_Node(链表) */ = {
+			isa = PBXGroup;
+			children = (
+				94229769253EB43A00FE2327 /* WXYSortNodeController.h */,
+				9422976A253EB43A00FE2327 /* WXYSortNodeController.m */,
+				9422976C253EB64800FE2327 /* WXYSortNodeModel.h */,
+				9422976D253EB64800FE2327 /* WXYSortNodeModel.m */,
+			);
+			path = "OrganizeSort_Node(链表)";
+			sourceTree = "<group>";
+		};
+		9422976F253EC68900FE2327 /* OrganizeSort_SameSuperView(相同父视图) */ = {
+			isa = PBXGroup;
+			children = (
+				9422977C253EC74000FE2327 /* TestView */,
+				94229770253EC6A900FE2327 /* WXYSortSameSuperViewController.h */,
+				94229771253EC6A900FE2327 /* WXYSortSameSuperViewController.m */,
+				94229779253EC72A00FE2327 /* WXYSortSameSuperViewModel.h */,
+				9422977A253EC72A00FE2327 /* WXYSortSameSuperViewModel.m */,
+			);
+			path = "OrganizeSort_SameSuperView(相同父视图)";
+			sourceTree = "<group>";
+		};
+		9422977C253EC74000FE2327 /* TestView */ = {
+			isa = PBXGroup;
+			children = (
+				94229773253EC6EB00FE2327 /* WXYSortTempView.h */,
+				94229774253EC6EB00FE2327 /* WXYSortTempView.m */,
+				94229776253EC70700FE2327 /* WXYSortTempChiledView.h */,
+				94229777253EC70700FE2327 /* WXYSortTempChiledView.m */,
+			);
+			path = TestView;
+			sourceTree = "<group>";
+		};
+		9422977D253ECBC700FE2327 /* OrganizeSort_HashSort(Hash算法) */ = {
+			isa = PBXGroup;
+			children = (
+				9422977E253ECBD600FE2327 /* WXYSortHashController.h */,
+				9422977F253ECBD600FE2327 /* WXYSortHashController.m */,
+				94229781253ECBE100FE2327 /* WXYSortHashModel.h */,
+				94229782253ECBE100FE2327 /* WXYSortHashModel.m */,
+			);
+			path = "OrganizeSort_HashSort(Hash算法)";
+			sourceTree = "<group>";
+		};
+		94229784253ED41D00FE2327 /* OrganizeSort_Reverse(字符串去重) */ = {
+			isa = PBXGroup;
+			children = (
+				94229785253ED43000FE2327 /* WXYSortStrReverseController.h */,
+				94229786253ED43000FE2327 /* WXYSortStrReverseController.m */,
+			);
+			path = "OrganizeSort_Reverse(字符串去重)";
+			sourceTree = "<group>";
+		};
+		94229788253FC96900FE2327 /* OrganizeSort_SearchKBig(查找第k大的数) */ = {
+			isa = PBXGroup;
+			children = (
+				94229789253FC98100FE2327 /* WXYSortSearchKBigController.h */,
+				9422978A253FC98100FE2327 /* WXYSortSearchKBigController.m */,
+				9422978C253FCABE00FE2327 /* WXYSortSearchKBigModel.h */,
+				9422978D253FCABE00FE2327 /* WXYSortSearchKBigModel.m */,
+			);
+			path = "OrganizeSort_SearchKBig(查找第k大的数)";
+			sourceTree = "<group>";
+		};
+		9422978F253FD58C00FE2327 /* OrganizeSort_Sub(超长整数求和) */ = {
+			isa = PBXGroup;
+			children = (
+				94229790253FD5AA00FE2327 /* WXYSortLongIntegerSubController.h */,
+				94229791253FD5AA00FE2327 /* WXYSortLongIntegerSubController.m */,
+				94229793253FD6AA00FE2327 /* WXYSortLongIntegerSubModel.h */,
+				94229794253FD6AA00FE2327 /* WXYSortLongIntegerSubModel.m */,
+			);
+			path = "OrganizeSort_Sub(超长整数求和)";
+			sourceTree = "<group>";
+		};
+		948DE376253D6B470052001B = {
+			isa = PBXGroup;
+			children = (
+				948DE381253D6B470052001B /* Organize_Sort_Items */,
+				948DE39D253D6B4A0052001B /* Organize_Sort_ItemsTests */,
+				948DE3A8253D6B4A0052001B /* Organize_Sort_ItemsUITests */,
+				948DE380253D6B470052001B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		948DE380253D6B470052001B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				948DE37F253D6B470052001B /* Organize_Sort_Items.app */,
+				948DE39A253D6B4A0052001B /* Organize_Sort_ItemsTests.xctest */,
+				948DE3A5253D6B4A0052001B /* Organize_Sort_ItemsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		948DE381253D6B470052001B /* Organize_Sort_Items */ = {
+			isa = PBXGroup;
+			children = (
+				94FF8998253FFDCF0097B396 /* OrganizeSort_FindMedian(无序查中位数) */,
+				9422978F253FD58C00FE2327 /* OrganizeSort_Sub(超长整数求和) */,
+				94229788253FC96900FE2327 /* OrganizeSort_SearchKBig(查找第k大的数) */,
+				94229784253ED41D00FE2327 /* OrganizeSort_Reverse(字符串去重) */,
+				9422977D253ECBC700FE2327 /* OrganizeSort_HashSort(Hash算法) */,
+				9422976F253EC68900FE2327 /* OrganizeSort_SameSuperView(相同父视图) */,
+				94229768253EB41D00FE2327 /* OrganizeSort_Node(链表) */,
+				94229761253E8E4700FE2327 /* OrganizeSort_QuickSort(快速排序) */,
+				94229754253E75A200FE2327 /* OrganizeSort_Merge(有序数组合并) */,
+				9422974D253D97BE00FE2327 /* OrganizeSort_Reverse(字符串反转) */,
+				948DE3BC253D6C100052001B /* OrganizeSort_BubbleSort(冒泡排序) */,
+				948DE3BB253D6C100052001B /* OrganizeSort_RootController(根视图) */,
+				94229740253D806800FE2327 /* OrganizeSort_Common */,
+				948DE3EA253D745B0052001B /* OrganizeSort_Category */,
+				948DE3BA253D6C100052001B /* OrganizeSort_Other */,
+				948DE38B253D6B470052001B /* Main.storyboard */,
+				948DE38E253D6B4A0052001B /* Assets.xcassets */,
+				948DE390253D6B4A0052001B /* LaunchScreen.storyboard */,
+				948DE393253D6B4A0052001B /* Info.plist */,
+				948DE394253D6B4A0052001B /* main.m */,
+			);
+			path = Organize_Sort_Items;
+			sourceTree = "<group>";
+		};
+		948DE39D253D6B4A0052001B /* Organize_Sort_ItemsTests */ = {
+			isa = PBXGroup;
+			children = (
+				948DE39E253D6B4A0052001B /* Organize_Sort_ItemsTests.m */,
+				948DE3A0253D6B4A0052001B /* Info.plist */,
+			);
+			path = Organize_Sort_ItemsTests;
+			sourceTree = "<group>";
+		};
+		948DE3A8253D6B4A0052001B /* Organize_Sort_ItemsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				948DE3A9253D6B4A0052001B /* Organize_Sort_ItemsUITests.m */,
+				948DE3AB253D6B4A0052001B /* Info.plist */,
+			);
+			path = Organize_Sort_ItemsUITests;
+			sourceTree = "<group>";
+		};
+		948DE3BA253D6C100052001B /* OrganizeSort_Other */ = {
+			isa = PBXGroup;
+			children = (
+				948DE382253D6B470052001B /* AppDelegate.h */,
+				948DE383253D6B470052001B /* AppDelegate.m */,
+				948DE3DF253D722F0052001B /* WXYSortItemsHeader.pch */,
+			);
+			path = OrganizeSort_Other;
+			sourceTree = "<group>";
+		};
+		948DE3BB253D6C100052001B /* OrganizeSort_RootController(根视图) */ = {
+			isa = PBXGroup;
+			children = (
+				948DE3C0253D6C630052001B /* WXYSortRootController.h */,
+				948DE3C1253D6C630052001B /* WXYSortRootController.m */,
+			);
+			path = "OrganizeSort_RootController(根视图)";
+			sourceTree = "<group>";
+		};
+		948DE3BC253D6C100052001B /* OrganizeSort_BubbleSort(冒泡排序) */ = {
+			isa = PBXGroup;
+			children = (
+				948DE3D3253D6F120052001B /* WXYSortBubbleSortController.h */,
+				948DE3D4253D6F120052001B /* WXYSortBubbleSortController.m */,
+				9422974A253D972800FE2327 /* WXYSortBubbleSort.h */,
+				9422974B253D972800FE2327 /* WXYSortBubbleSort.m */,
+			);
+			path = "OrganizeSort_BubbleSort(冒泡排序)";
+			sourceTree = "<group>";
+		};
+		948DE3EA253D745B0052001B /* OrganizeSort_Category */ = {
+			isa = PBXGroup;
+			children = (
+				948DE3EC253D745B0052001B /* UIView+IBCategory.h */,
+				948DE3EB253D745B0052001B /* UIView+IBCategory.m */,
+			);
+			path = OrganizeSort_Category;
+			sourceTree = "<group>";
+		};
+		94FF8998253FFDCF0097B396 /* OrganizeSort_FindMedian(无序查中位数) */ = {
+			isa = PBXGroup;
+			children = (
+				94FF8999253FFDE00097B396 /* WXYSortFindMedianController.h */,
+				94FF899A253FFDE00097B396 /* WXYSortFindMedianController.m */,
+				94FF89A2253FFE560097B396 /* WXYSortFindMedianModel.h */,
+				94FF89A3253FFE560097B396 /* WXYSortFindMedianModel.m */,
+			);
+			path = "OrganizeSort_FindMedian(无序查中位数)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		948DE37E253D6B470052001B /* Organize_Sort_Items */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948DE3AE253D6B4A0052001B /* Build configuration list for PBXNativeTarget "Organize_Sort_Items" */;
+			buildPhases = (
+				948DE37B253D6B470052001B /* Sources */,
+				948DE37C253D6B470052001B /* Frameworks */,
+				948DE37D253D6B470052001B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Organize_Sort_Items;
+			productName = Organize_Sort_Items;
+			productReference = 948DE37F253D6B470052001B /* Organize_Sort_Items.app */;
+			productType = "com.apple.product-type.application";
+		};
+		948DE399253D6B4A0052001B /* Organize_Sort_ItemsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948DE3B1253D6B4A0052001B /* Build configuration list for PBXNativeTarget "Organize_Sort_ItemsTests" */;
+			buildPhases = (
+				948DE396253D6B4A0052001B /* Sources */,
+				948DE397253D6B4A0052001B /* Frameworks */,
+				948DE398253D6B4A0052001B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				948DE39C253D6B4A0052001B /* PBXTargetDependency */,
+			);
+			name = Organize_Sort_ItemsTests;
+			productName = Organize_Sort_ItemsTests;
+			productReference = 948DE39A253D6B4A0052001B /* Organize_Sort_ItemsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		948DE3A4253D6B4A0052001B /* Organize_Sort_ItemsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948DE3B4253D6B4A0052001B /* Build configuration list for PBXNativeTarget "Organize_Sort_ItemsUITests" */;
+			buildPhases = (
+				948DE3A1253D6B4A0052001B /* Sources */,
+				948DE3A2253D6B4A0052001B /* Frameworks */,
+				948DE3A3253D6B4A0052001B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				948DE3A7253D6B4A0052001B /* PBXTargetDependency */,
+			);
+			name = Organize_Sort_ItemsUITests;
+			productName = Organize_Sort_ItemsUITests;
+			productReference = 948DE3A5253D6B4A0052001B /* Organize_Sort_ItemsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		948DE377253D6B470052001B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					948DE37E253D6B470052001B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					948DE399253D6B4A0052001B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 948DE37E253D6B470052001B;
+					};
+					948DE3A4253D6B4A0052001B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 948DE37E253D6B470052001B;
+					};
+				};
+			};
+			buildConfigurationList = 948DE37A253D6B470052001B /* Build configuration list for PBXProject "Organize_Sort_Items" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 948DE376253D6B470052001B;
+			productRefGroup = 948DE380253D6B470052001B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				948DE37E253D6B470052001B /* Organize_Sort_Items */,
+				948DE399253D6B4A0052001B /* Organize_Sort_ItemsTests */,
+				948DE3A4253D6B4A0052001B /* Organize_Sort_ItemsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		948DE37D253D6B470052001B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948DE392253D6B4A0052001B /* LaunchScreen.storyboard in Resources */,
+				948DE38F253D6B4A0052001B /* Assets.xcassets in Resources */,
+				948DE38D253D6B470052001B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948DE398253D6B4A0052001B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948DE3A3253D6B4A0052001B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		948DE37B253D6B470052001B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94229749253D8A9000FE2327 /* WXYSortBaseViewController.m in Sources */,
+				9422975D253E761300FE2327 /* WXYSortMergeController.m in Sources */,
+				9422976B253EB43A00FE2327 /* WXYSortNodeController.m in Sources */,
+				94229750253D97E400FE2327 /* WXYSortCharReverseController.m in Sources */,
+				94229783253ECBE100FE2327 /* WXYSortHashModel.m in Sources */,
+				9422976E253EB64800FE2327 /* WXYSortNodeModel.m in Sources */,
+				948DE3D5253D6F120052001B /* WXYSortBubbleSortController.m in Sources */,
+				9422978E253FCABE00FE2327 /* WXYSortSearchKBigModel.m in Sources */,
+				94229792253FD5AA00FE2327 /* WXYSortLongIntegerSubController.m in Sources */,
+				94229778253EC70700FE2327 /* WXYSortTempChiledView.m in Sources */,
+				94229780253ECBD600FE2327 /* WXYSortHashController.m in Sources */,
+				94FF899B253FFDE00097B396 /* WXYSortFindMedianController.m in Sources */,
+				9422977B253EC72A00FE2327 /* WXYSortSameSuperViewModel.m in Sources */,
+				94229753253D980E00FE2327 /* WXYSortCharReverse.m in Sources */,
+				94229795253FD6AA00FE2327 /* WXYSortLongIntegerSubModel.m in Sources */,
+				948DE384253D6B470052001B /* AppDelegate.m in Sources */,
+				94229787253ED43000FE2327 /* WXYSortStrReverseController.m in Sources */,
+				94FF89A4253FFE560097B396 /* WXYSortFindMedianModel.m in Sources */,
+				948DE3C2253D6C630052001B /* WXYSortRootController.m in Sources */,
+				94229760253E767300FE2327 /* WXYSortMergeModel.m in Sources */,
+				9422978B253FC98100FE2327 /* WXYSortSearchKBigController.m in Sources */,
+				94229772253EC6A900FE2327 /* WXYSortSameSuperViewController.m in Sources */,
+				94229764253E8E6700FE2327 /* WXYSortQuickSortController.m in Sources */,
+				948DE3ED253D745B0052001B /* UIView+IBCategory.m in Sources */,
+				94229775253EC6EB00FE2327 /* WXYSortTempView.m in Sources */,
+				94229767253E8E7800FE2327 /* WXYSortQuickSortModel.m in Sources */,
+				9422974C253D972800FE2327 /* WXYSortBubbleSort.m in Sources */,
+				948DE395253D6B4A0052001B /* main.m in Sources */,
+				94229746253D82A800FE2327 /* WXYSortCommonTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948DE396253D6B4A0052001B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948DE39F253D6B4A0052001B /* Organize_Sort_ItemsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948DE3A1253D6B4A0052001B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948DE3AA253D6B4A0052001B /* Organize_Sort_ItemsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		948DE39C253D6B4A0052001B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 948DE37E253D6B470052001B /* Organize_Sort_Items */;
+			targetProxy = 948DE39B253D6B4A0052001B /* PBXContainerItemProxy */;
+		};
+		948DE3A7253D6B4A0052001B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 948DE37E253D6B470052001B /* Organize_Sort_Items */;
+			targetProxy = 948DE3A6253D6B4A0052001B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		948DE38B253D6B470052001B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948DE38C253D6B470052001B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		948DE390253D6B4A0052001B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948DE391253D6B4A0052001B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		948DE3AC253D6B4A0052001B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		948DE3AD253D6B4A0052001B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		948DE3AF253D6B4A0052001B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8924KXA8M;
+				GCC_PREFIX_HEADER = Organize_Sort_Items/OrganizeSort_Other/WXYSortItemsHeader.pch;
+				INFOPLIST_FILE = Organize_Sort_Items/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.zombiecoder.Organize-Sort-Items";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		948DE3B0253D6B4A0052001B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8924KXA8M;
+				GCC_PREFIX_HEADER = Organize_Sort_Items/OrganizeSort_Other/WXYSortItemsHeader.pch;
+				INFOPLIST_FILE = Organize_Sort_Items/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.zombiecoder.Organize-Sort-Items";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		948DE3B2253D6B4A0052001B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8924KXA8M;
+				INFOPLIST_FILE = Organize_Sort_ItemsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.zombiecoder.Organize-Sort-ItemsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Organize_Sort_Items.app/Organize_Sort_Items";
+			};
+			name = Debug;
+		};
+		948DE3B3253D6B4A0052001B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8924KXA8M;
+				INFOPLIST_FILE = Organize_Sort_ItemsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.zombiecoder.Organize-Sort-ItemsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Organize_Sort_Items.app/Organize_Sort_Items";
+			};
+			name = Release;
+		};
+		948DE3B5253D6B4A0052001B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8924KXA8M;
+				INFOPLIST_FILE = Organize_Sort_ItemsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.zombiecoder.Organize-Sort-ItemsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Organize_Sort_Items;
+			};
+			name = Debug;
+		};
+		948DE3B6253D6B4A0052001B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8924KXA8M;
+				INFOPLIST_FILE = Organize_Sort_ItemsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.zombiecoder.Organize-Sort-ItemsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Organize_Sort_Items;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		948DE37A253D6B470052001B /* Build configuration list for PBXProject "Organize_Sort_Items" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948DE3AC253D6B4A0052001B /* Debug */,
+				948DE3AD253D6B4A0052001B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948DE3AE253D6B4A0052001B /* Build configuration list for PBXNativeTarget "Organize_Sort_Items" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948DE3AF253D6B4A0052001B /* Debug */,
+				948DE3B0253D6B4A0052001B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948DE3B1253D6B4A0052001B /* Build configuration list for PBXNativeTarget "Organize_Sort_ItemsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948DE3B2253D6B4A0052001B /* Debug */,
+				948DE3B3253D6B4A0052001B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948DE3B4253D6B4A0052001B /* Build configuration list for PBXNativeTarget "Organize_Sort_ItemsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948DE3B5253D6B4A0052001B /* Debug */,
+				948DE3B6253D6B4A0052001B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 948DE377253D6B470052001B /* Project object */;
+}

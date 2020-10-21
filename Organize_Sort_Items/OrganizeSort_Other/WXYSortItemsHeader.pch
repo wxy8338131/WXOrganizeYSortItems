@@ -1,0 +1,72 @@
+//
+//  WXYSortItemsHeader.pch
+//  Organize_Sort_Items
+//
+//  Created by wxy on 2020/10/19.
+//
+
+#ifndef WXYSortItemsHeader_pch
+#define WXYSortItemsHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "UIView+IBCategory.h"
+#import "WXYSortCommonTool.h"
+
+/// 操作系统版本号，只获取第二级的版本号，例如 10.3.1 只会得到 10.3
+#define IOS_VERSION ([[[UIDevice currentDevice] systemVersion] doubleValue])
+
+/// 是否为IPAD
+#define IS_IPAD UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ? YES : NO
+/// 是否横竖屏
+/// 用户界面横屏了才会返回YES
+#define IS_LANDSCAPE UIInterfaceOrientationIsLandscape(UIApplication.sharedApplication.statusBarOrientation)
+/// 无论支不支持横屏，只要设备横屏了，就会返回YES
+#define IS_DEVICE_LANDSCAPE UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation])
+
+/// 屏幕宽度，会根据横竖屏的变化而变化
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+
+/// 屏幕高度，会根据横竖屏的变化而变化
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+/// 格式化字符串
+#define WXYFormatterString(s,...) [NSString stringWithFormat:@"%@",([NSString stringWithFormat:(s), ##__VA_ARGS__])]
+
+/** 判断字符串（类）是否为空 */
+#define KSStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || ![str isKindOfClass:[NSString class]] || [str length] < 1 || [str isEqualToString:@"(null)"] || [str isEqualToString:@"null"] || [str isEqualToString:@""] ? YES : NO)
+
+/** 判断数组是否为空 */
+#define KSArrayIsEmpty(array) (array == nil || [array isKindOfClass:[NSNull class]] || ![array isKindOfClass:[NSArray class]] || array.count == 0 ? YES : NO)
+
+/** 判断字典是否为空 */
+#define KSDictIsEmpty(dic) (dic == nil || [dic isKindOfClass:[NSNull class]] || ![dic isKindOfClass:[NSDictionary class]] || dic.allKeys == 0 ? YES : NO)
+
+/** 是否是空对象 */
+#define KSObjectIsEmpty(_object) (_object == nil \
+|| [_object isKindOfClass:[NSNull class]] \
+|| ([_object isKindOfClass:[NSData class]] && [(NSData *)_object length] == 0) \
+|| ([_object isKindOfClass:[NSArray class]] && [(NSArray *)_object count] == 0) \
+|| ([_object isKindOfClass:[NSDictionary class]] && [(NSDictionary *)_object count] == 0)\
+|| ([_object isKindOfClass:[NSString class]] && KSStringIsEmpty((NSString *)_object))? YES : NO)
+
+#define iPhoneXSeries (([[UIApplication sharedApplication] statusBarFrame].size.height == 44.0f) ? (YES):(NO))
+
+
+/// 状态栏高度(来电等情况下，状态栏高度会发生变化，所以应该实时计算，iOS 13 起，来电等情况下状态栏高度不会改变)
+#define StatusBarHeight (UIApplication.sharedApplication.statusBarHidden ? 0 : UIApplication.sharedApplication.statusBarFrame.size.height)
+
+/// 状态栏高度(如果状态栏不可见，也会返回一个普通状态下可见的高度)
+#define StatusBarHeightConstant (UIApplication.sharedApplication.statusBarHidden ? (IS_IPAD ? (IS_NOTCHED_SCREEN ? 24 : 20) : PreferredValueForNotchedDevice(IS_LANDSCAPE ? 0 : 44, 20)) : UIApplication.sharedApplication.statusBarFrame.size.height)
+
+/// navigationBar 的静态高度（不考虑横屏的高度）
+#define NavigationBarHeight 44
+
+/// 代表(导航栏+状态栏)，这里用于获取其高度
+/// @warn 如果是用于 viewController，请使用 UIViewController(QMUI) qmui_navigationBarMaxYInViewCoordinator 代替
+#define NavigationContentTop (StatusBarHeight + NavigationBarHeight)
+
+
+
+#endif /* WXYSortItemsHeader_pch */
